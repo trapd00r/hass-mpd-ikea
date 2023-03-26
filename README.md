@@ -9,7 +9,7 @@ styrbar 5-button remote
 
 First, grab the excellent webhook from [here](https://github.com/adnanh/webhook)
 
-We will execute it as follows once we are done with all the setup:
+We will execute it as follows in _this_ directory once we are done with all the setup:
 
 ```
 webhook -hooks hooks.json -verbose
