@@ -23,12 +23,11 @@ A few things happen:
 
   Which will add all loved songs that are considered singles.
 
+- Update the smart playlists that beet handles.
 - Send a very beautiful notification to the desktop. It's red.
 
   ![screenshot](/extra/love.png)
 
-
-- Update the smart playlists that beet handles.
 
 ```
 curl http://192.168.1.12:9000/hooks/mpd_love_song
