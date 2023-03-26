@@ -1,0 +1,7 @@
+#!/bin/sh
+# mapped to down button long press on my ikea 5 button remote
+
+mpc clear
+pimpd2 --randomize 250 | mpc add
+mpc play
+mpc random on

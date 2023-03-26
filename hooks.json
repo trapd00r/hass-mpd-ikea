@@ -1,0 +1,12 @@
+[
+  {
+    "id": "mpd_love_song",
+    "execute-command": "./love",
+    "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
+  },
+  {
+    "id": "mpd_randomize",
+    "execute-command": "./mpd_randomize",
+    "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
+  }
+]
