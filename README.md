@@ -3,7 +3,13 @@
 Various custom webhooks that I use together with homeassistant, mpd and the ikea
 styrbar 5-button remote
 
-![styrbar](/extra/styrbar.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/trapd00r/hass-mpd-ikea/master/extra/styrbar.png">
+</p>
+
+First, grab the excellent webhook from [here](https://github.com/adnanh/webhook)
+
+We will execute it as follows once we are done with all the setup:
 
 ```
 webhook -hooks hooks.json -verbose
@@ -21,7 +27,9 @@ rest_command:
 
 Next, create an automation using
 [this](https://epmatt.github.io/awesome-ha-blueprints/docs/blueprints/controllers/ikea_e2001_e2002/)
-blueprint. You can create the mappings using the webui, but here's what it looks like in yaml:
+blueprint.
+
+You can create the mappings using the webui, but here's what it looks like in yaml:
 
 ```yaml
    action_button_up_long:
@@ -32,7 +40,7 @@ blueprint. You can create the mappings using the webui, but here's what it looks
      data: {}
 ```
 
-
+# actual programs that will be executed on a webhook request
 
 ## love
 
