@@ -7,6 +7,31 @@ styrbar 5-button remote
 webhook -hooks hooks.json -verbose
 ```
 
+## homeassistant configuration.yaml:
+
+```yaml
+rest_command:
+  mpd_love_song:
+    url: "http://192.168.1.12:9000/hooks/mpd_love_song"
+  mpd_randomize:
+    url: "http://192.168.1.12:9000/hooks/mpd_randomize"
+```
+
+Next, create an automation using
+[this](https://epmatt.github.io/awesome-ha-blueprints/docs/blueprints/controllers/ikea_e2001_e2002/)
+blueprint. You can create the mappings using the webui, but here's what it looks like in yaml:
+
+```yaml
+   action_button_up_long:
+   - service: rest_command.mpd_love_song
+     data: {}
+   action_button_down_long:
+   - service: rest_command.mpd_randomize
+     data: {}
+```
+
+
+
 ## love
 
 Love the currently playing song in mpd when I long-press the up button on my
