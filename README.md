@@ -3,6 +3,8 @@
 Various custom webhooks that I use together with homeassistant, mpd and the ikea
 styrbar 5-button remote
 
+![styrbar](/extra/styrbar.png)
+
 ```
 webhook -hooks hooks.json -verbose
 ```
