@@ -1,0 +1,3 @@
+#!/bin/sh
+beet2mpd --hour 12
+mpc play

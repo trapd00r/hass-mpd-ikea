@@ -77,3 +77,12 @@ the down button
 ```
 curl http://192.168.1.12:9000/hooks/mpd_randomize
 ```
+
+## mpd_add_recent
+
+Clear the playlist and use [beet2mpd](https://github.com/trapd00r/beet2mpd) to add the most
+recently imported files to mpd (12h period).
+
+```
+curl http://192.168.1.12:9000/hooks/mpd_add_recent
+```

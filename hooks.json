@@ -8,5 +8,10 @@
     "id": "mpd_randomize",
     "execute-command": "./mpd_randomize",
     "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
+  },
+  {
+    "id": "mpd_add_recent",
+    "execute-command": "./mpd_add_recent",
+    "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
   }
 ]
