@@ -23,5 +23,10 @@
     "id": "plexlove",
     "execute-command": "./plexlove",
     "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
+  },
+  {
+    "id": "plexnextalbum",
+    "execute-command": "./plexnextalbum",
+    "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
   }
 ]

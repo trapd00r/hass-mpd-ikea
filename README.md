@@ -95,3 +95,12 @@ shortcut that's executed upon a webhook call.
 ```
 curl http://192.168.1.12:9000/hooks/plexlove
 ```
+
+## plexnextalbum
+
+Play the next album in plex/plexamp, by using a global keyboard shortcut that's
+executed upon a webhook call.
+
+```
+curl http://192.168.1.12:9000/hooks/plexnextalbum
+```

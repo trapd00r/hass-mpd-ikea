@@ -1,0 +1,6 @@
+#!/bin/sh
+# abstract: play the next album in plex/plexamp
+# map a global shortcut in plexamp, in my case:
+# ctrl+super+alt+n
+
+xdotool key ctrl+super+alt+n
