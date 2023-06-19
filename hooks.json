@@ -21,7 +21,7 @@
   },
   {
     "id": "plexlove",
-    "execute-command": "./plex_love",
+    "execute-command": "./plexlove",
     "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
   }
 ]
