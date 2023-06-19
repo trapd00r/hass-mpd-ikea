@@ -1,0 +1,6 @@
+#!/bin/sh
+# abstract: love the currently playing song in plexamp
+# map a global shortcut in plexamp, in my case:
+# ctrl+super+alt+o
+
+xdotool key ctrl+super+alt+o

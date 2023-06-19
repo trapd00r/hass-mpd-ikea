@@ -18,5 +18,10 @@
     "id": "mpd_add_recent",
     "execute-command": "./mpd_add_recent",
     "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
+  },
+  {
+    "id": "plexlove",
+    "execute-command": "./plex_love",
+    "command-working-directory": "/home/scp1/dev/hass-mpd-ikea/"
   }
 ]

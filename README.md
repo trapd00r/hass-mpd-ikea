@@ -86,3 +86,12 @@ recently imported files to mpd (12h period).
 ```
 curl http://192.168.1.12:9000/hooks/mpd_add_recent
 ```
+
+## plexlove
+
+Love the currently playing song in plex/plexamp, by using a global keyboard
+shortcut that's executed upon a webhook call.
+
+```
+curl http://192.168.1.12:9000/hooks/plexlove
+```
