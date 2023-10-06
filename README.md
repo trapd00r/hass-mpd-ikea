@@ -1,6 +1,6 @@
 # hass + mpd + ikea styrbar + webhook + beets
 
-Various custom webhooks that I use together with homeassistant, mpd and the ikea
+Various custom webhooks that I use together with homeassistant, mpd, plex(amp) and the ikea
 styrbar 5-button remote
 
 <p align="center">
